@@ -111,8 +111,9 @@ nav a{
 }
 
 .post img {
-    width: 100%;
-    height: auto;
+    max-width: 300px; /* 最大幅を300pxに設定 */
+    height: 200px; /* 高さを固定 */
+    object-fit: cover; /* 画像をトリミングして中央に合わせる */
 }
 
 footer {
